@@ -1,9 +1,9 @@
 class Cuenta():
 
-    def __init__(self, pro, sal, mon):
-        self.__propietario = pro
-        self.__saldo = sal
-        self.__moneda = mon
+    def __init__(self, propi, sld, mnda):
+        self.__propietario = propi
+        self.__saldo = sld
+        self.__moneda = mnda
 
     # Getters (métodos GET)
     def get_Saldo(self):
@@ -20,7 +20,8 @@ class Cuenta():
         self.__moneda = moneda
 
 
-cuenta1 = Cuenta("Ruben Chicaiza", 18000, "Soles")
+cuenta1 = Cuenta("Oscar García", 15000, "Sucres"
+                                        "")
 print(cuenta1.get_Saldo())
 print(cuenta1.get_Moneda())
 cuenta1.set_Moneda("Dólares")

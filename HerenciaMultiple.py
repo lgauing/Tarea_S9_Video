@@ -1,20 +1,20 @@
 class ClaseA():
 
-    def __init__(self, par1, par2):
-        self.parametro1 = par1
-        self.parametro2 = par2
+    def __init__(self, pmtro1, pmtro2):
+        self.parametro1 = pmtro1
+        self.parametro2 = pmtro2
 
 
 class ClaseB():
 
-    def __init__(self, par3, par4, par5):
-        self.parametro3 = par3
-        self.parametro4 = par4
-        self.parametro5 = par5
+    def __init__(self, parm3, parm4, parm5):
+        self.parametro3 = parm3
+        self.parametro4 = parm4
+        self.parametro5 = parm5
 
 
 class ClaseX(ClaseA, ClaseB):
     pass
 
 
-cX1 = ClaseX(15, 21)
+cX1 = ClaseX(17, 23)

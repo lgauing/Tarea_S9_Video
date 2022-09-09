@@ -1,9 +1,9 @@
 class Persona():
 
-    def __init__(self, apePat, apeMat, nom):
-        self.apellidoPaterno = apePat
-        self.apellidoMaterno = apeMat
-        self.nombres = nom
+    def __init__(self, apePtno, apeMtno, nomb):
+        self.apellidoPaterno = apePtno
+        self.apellidoMaterno = apeMtno
+        self.nombres = nomb
 
     def mostrarNombreCompleto(self):
         txt = "{0} {1}, {2}"
@@ -15,8 +15,8 @@ class Persona():
 
 class Estudiante(Persona):
 
-    def __init__(self, apePat, apeMat, nom, pro):
-        super().__init__(apePat, apeMat, nom)
+    def __init__(self, apePtno, apeMtno, nomb, pro):
+        super().__init__(apePtno, apeMtno, nomb)
         self.profesion = pro
 
     def datos(self):
@@ -24,7 +24,7 @@ class Estudiante(Persona):
         print("Profesión: {0}".format(self.profesion))
 
 
-estu1 = Estudiante("Gauin", "Gusñay", "Lady", "Ingeniería en SOftware")
+estu1 = Estudiante("Gauin", "Gusñay", "Lady", "Ingeniería en Sotware")
 per1 = Persona("Gauin", "Gusñay", "Lady")
 print(estu1.mostrarNombreCompleto())
 print(estu1.profesion)

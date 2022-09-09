@@ -6,10 +6,10 @@ class Curso():
     """
 
     # Estado inicial del objeto:
-    def __init__(self, nom, cre, pro):
+    def __init__(self, nom, cred, prof):
         self.nombre = nom
-        self.creditos = cre
-        self.profesion = pro
+        self.creditos = cred
+        self.profesion = prof
         self.__imparticion = "Online"  # Propiedad encapsulada.
 
     def mostrarDatos(self):
@@ -38,5 +38,5 @@ curso1 = Curso("Lenguaje", 5, "Escritor")
 print(curso1)
 curso1.mostrarDatos()
 
-# curso2 = Curso("Lenguaje", 4, "Ingeniería Industrial")
+# curso2 = Curso("Ciencias", 4, "Escritor")
 # print(curso2.nombre)

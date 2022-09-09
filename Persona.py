@@ -8,12 +8,11 @@ Los objetos de la realidad tienen características (atributos o propiedades)
 y funcionalidades o comportamientos (funciones o métodos).
 
 Ventajas:
-- Modularización (división en pequeñas partes) de un programa completo.
-- Código fuente muy reutilizable.
+- Modularización  de un programa completo.
+- Código fuente reutilizable.
 - Código fuente más fácil de incrementar en el futuro y mantener.
-- Si existe un fallo en una pequeña parte del código el programa completo
-no falla.
-- Encapsulamiento: Ocultamiento del objeto.
+- Si existe un fallo en una pequeña parte del código el programa completo no falla.
+- Encapsulamiento: Ocultamiento de un objeto.
 """
 
 
@@ -28,7 +27,7 @@ class Persona():
     def despertar(self):
         # self: Parámetro que hace referencia a la instancia perteneciente a la clase.
         self.despierta = True
-        print("Buen día.")
+        print("Buenas tardes.")
 
 
 persona1 = Persona()
